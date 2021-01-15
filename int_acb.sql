@@ -123,6 +123,7 @@ show errors
 CREATE OR REPLACE package body int_acb is
 
 ------------------------------------------------------------------------------
+--not nice
 function find_aun                   -- Retrieve admin area code for given type.
 (p_pro_refno   in number            -- Rent account Property reference.
 ,p_aun_type    in varchar2          -- Admin area code.
